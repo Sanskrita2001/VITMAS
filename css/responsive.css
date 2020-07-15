@@ -77,3 +77,11 @@
 		height: 250px;
 	}
 }
+@media (max-width:576px)
+{
+	.profile-card-1
+	{
+		width:80%;
+		margin-left:10%;
+	}
+}
