@@ -1268,6 +1268,27 @@ footer
 	color: #fff;
 	background-color: #e84118;
 }
+footer .first
+{
+	margin-top:5%;
+}
+footer .second .txt
+{
+	margin-top: -10%;
+}
+footer .third
+{
+	margin-top:5%;
+}
+footer .third .pic
+{
+	width:70%;
+	height:50%;
+	object-fit:cover;
+	border-radius:20px;
+	margin:5%;
+	margin-left:15%;
+}
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
