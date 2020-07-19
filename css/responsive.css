@@ -84,4 +84,17 @@
 		width:80%;
 		margin-left:10%;
 	}
+	footer .first img
+	{
+		margin-left:30%;
+	}
+	footer .third
+	{
+		margin-top:20%;
+	}
+	footer .first .flex
+	{
+		align-items:center;
+		margin-left:25%;
+	}
 }
