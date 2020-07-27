@@ -76,7 +76,7 @@
 
 
 					<div class="flex icon" id="icon 3">
-						<a href="https://medium.com/@vitmas"><i class="fa fa-medium fa-2x" style="z-index:2;"></i></a>
+						<a href="vitmas@vit.ac.in"><i class="fa fa-medium fa-2x" style="z-index:2;"></i></a>
 					</div>
 
 				</a>
@@ -701,23 +701,24 @@
 			<br>
 			<img src="img/vitmas white.png" width=20%;>
 			<div class="con">
-				<span><i class="fa fa-phone"></i> &nbsp; +91 70117 40401 / +91 86690 12818</span>
-				<span><i class="fa fa-envelope"></i> &nbsp; info@vitmas.org</span>
+				<span><i class="fa fa-phone"></i> &nbsp; +91 98753 57640 / +91 86690 12818</span>
+				<span><i class="fa fa-envelope"></i> &nbsp; vitmas@vit.ac.in</span>
 			</div>
 			<div class="socials">
-				<a href="#"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-instagram"></i></a>
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="https://m.facebook.com/vitmasstudentchapter/"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.instagram.com/vitmas_/"><i class="fa fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/company/66323751/admin/"><i class="fa fa-linkedin"></i></a>
+				<a href="https://medium.com/@vitmas"><i class="fa fa-medium"></i></a>
 			</div>
 		</div>
 		<div class="col-12 col-lg-4 footer-section contact-form">
 			<h2>Contact Us</h2>
 			<br>
 			<form action="index.html" method="post">
-				<input type="email" name="email" class="text-input contact-input" placeholder="Ypur email address...">
-				<textarea name="message" id="" class="text-input contact-input" placeholder="Your message..."></textarea>
-				<button type="submit" class="btn btn-big">
+				<input type="text" name="name" id="userName" class="text-input contact-input" placeholder="Your name...">
+				<input type="email" name="email" id="userEmail" class="text-input contact-input" placeholder="Your email address...">
+				<textarea name="message" id="userMessage" class="text-input contact-input" placeholder="Your message..."></textarea>
+				<button type="submit" id="submit" class="btn btn-big">
 					<i class="fa fa-envelope"></i>
 					Send
 				</button>
@@ -796,27 +797,10 @@
 
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCusgvDjHV4jBjFkaAExiI5o5GKvPQkvRE",
-    authDomain: "sejalweb-d5177.firebaseapp.com",
-    databaseURL: "https://sejalweb-d5177.firebaseio.com",
-    projectId: "sejalweb-d5177",
-    storageBucket: "sejalweb-d5177.appspot.com",
-    messagingSenderId: "254338534600",
-    appId: "1:254338534600:web:021a488c42c19992d129fd",
-    measurementId: "G-TC6FBNTR17"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
 </body>
 </html>
