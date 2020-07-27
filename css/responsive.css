@@ -20,7 +20,10 @@
 	{
 		margin-top: 0;
 	}
-
+	.main .welcome
+	{
+		font-size:30px;
+	}
 	.main .type
 	{
 		font-size: 40px;
