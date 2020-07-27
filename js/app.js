@@ -1,4 +1,4 @@
- // Your web app's Firebase configuration
+// Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyD9lYcR-xMgDFW6Nbf_JjjqpbYidJ3GJaM",
     authDomain: "vitmas-contactform.firebaseapp.com",
@@ -12,6 +12,7 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+
 var firestore = firebase.firestore();
 
   /*function storeData() {
