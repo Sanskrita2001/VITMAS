@@ -209,7 +209,7 @@ button:focus
 {
 	width: 100%;
 	height: 100vh;
-	background:url(img/VITMASbg.jpeg);
+	background:url(img/Bg.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -237,12 +237,12 @@ button:focus
 .main-content .welcome
 {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 50px;
 }
 
 .main-content .type
 {
-	font-size: 60px;
+	font-size: 40px;
 	margin-top: 20px;
 }
 
