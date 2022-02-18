@@ -1,6 +1,6 @@
 .team-section
 {
-    //background-color:#009688;
+    /* background-color:#009688; */
     min-height:100vh;
     padding:70px 15px 30px;
 }
@@ -43,7 +43,7 @@
     border-radius:20px;
     padding:10px;
     min-width:250px;
-    max-height:270px;
+    min-height:400px;
     object-fit:cover;
 }
 .team-section .team-items .item .inner
