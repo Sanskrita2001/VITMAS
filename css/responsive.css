@@ -50,6 +50,10 @@
 	{
 		height: 350px;
 	}
+	.team-section .team-items .item img{
+		height:800px !important;
+		width:250px;
+	}
 }
 
 @media screen and (max-width: 600px){
@@ -65,6 +69,7 @@
 	{
 		height: 300px;
 	}
+	
 }
 
 @media screen and (max-width: 500px){
